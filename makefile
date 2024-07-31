@@ -1,2 +1,5 @@
 push:
-	@git add . && git commit -m "update" && git push origin main
+	@msg=$${msg:-"solutions added"}; \
+	git add . && git commit -m "$$msg" && git push origin main
+
+.PHONY: push
