@@ -1,9 +1,13 @@
-///////////////////////////////////////////////////////
-// Author :- Vaibhav Yadav (https://www.linkedin.com/in/vaibhav-yadav-4397351b9/)
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Author              :- Vaibhav Yadav (https://www.linkedin.com/in/vaibhav-yadav-4397351b9/)
 // Day_of_submission   :- Wednesday
 // Date_of_submission  :- 2024-07-31
 // Time_of_submission  :- 19:38:13
-///////////////////////////////////////////////////////
+// Time_taken          :- 77 ms
+// Memory_consumed     :- 0 KB
+// Testcase_passed     :- 3
+// Status              :- Submitted
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 #include <iostream>
@@ -26,3 +30,7 @@ int main(){
     }
     return 0;
 }
+
+
+// ------ STAR THIS REPO IF YOU FOUND HELPFUL ---------
+// धन्यवाद !
