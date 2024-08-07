@@ -2,10 +2,10 @@
 // Author              :- Vaibhav Yadav (https://www.linkedin.com/in/vaibhav-yadav-4397351b9/)
 // Day_of_submission   :- Wednesday
 // Date_of_submission  :- 2024-08-07
-// Time_of_submission  :- 00:11:45
-// Time_taken          :- 77 ms
-// Memory_consumed     :- 102400 KB
-// Testcase_passed     :- 29
+// Time_of_submission  :- 14:19:56
+// Time_taken          :- 62 ms
+// Memory_consumed     :- 0 KB
+// Testcase_passed     :- 5
 // Status              :- Submitted
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -25,34 +25,33 @@ using namespace std;
 
 
 void solve(){
-    string str1, str2;
-    cin>>str1>>str2;
+    int n;
+    cin>>n;
     
-    int n = str1.size(), m = str2.size();
+    string str;
+    cin>>str;
     
-    int i = 0, j = 0;
-    while(i<n && j<m){
-        if(str1[i]=='?')
-            str1[i]=str2[j];
-            
-        if(str1[i]==str2[j]){
-            j++;
-        }
-        i++;
+    int a = 0, b = 0, c = 0, d = 0;
+    for(auto it:str){
+        if(it=='A') a++;
+        if(it=='B') b++;
+        if(it=='C') c++;
+        if(it=='D') d++;
     }
+    int count = 0;
+    if(a>=n) count+=n;
+    else if(a<=n) count+=a;
     
-    for(auto &it:str1){
-        if(it=='?') it='a';
-    }
+    if(b>=n) count+=n;
+    else if(b<=n) count+=b;
     
-    if(j==m){
-        cout<<"YES"<<endl;
-        cout<<str1;
-    }else{
-        cout<<"NO";
-    }
-    cout<<endl;
+    if(c>=n) count+=n;
+    else if(c<=n) count+=c;
     
+    if(d>=n) count+=n;
+    else if(d<=n) count+=d;
+    
+    cout<<count<<endl;
 }
 
 

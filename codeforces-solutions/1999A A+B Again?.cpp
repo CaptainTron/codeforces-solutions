@@ -5,7 +5,7 @@
 // Time_of_submission  :- 20:09:39
 // Time_taken          :- 46 ms
 // Memory_consumed     :- 0 KB
-// Testcase_passed     :- 2
+// Testcase_passed     :- 6
 // Status              :- Submitted
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
