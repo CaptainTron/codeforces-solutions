@@ -10,38 +10,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-#include <iostream>
-#include<bits/stdc++.h>
-using namespace std;
-#define IOS                           \
-    ios_base::sync_with_stdio(false); \
-    cin.tie(NULL);                    \
-    cout.tie(NULL);
-#define loop(i, a, n) for (int i = a; i < n; i++)
-#define ll long long
-#define MX 10000007
-#define all(v) v.begin(),v.end()
-
-
-
-void solve(){
-    int l, r;
-    cin>>l>>r;
-    
-    cout<<__lg(r)<<endl;
-}
-
-
-
-int main(){
-    IOS;
-    ll t;
-    cin>>t;
-    while(t--){
-        solve();
-    }
-    return 0;
-}
+Code not found
 
 
 // ------ STAR THIS REPO IF YOU FOUND HELPFUL ---------
